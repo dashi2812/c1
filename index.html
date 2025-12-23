@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysqft</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+      <div class="container">
+        <header>
+        <h1>Mysqft</h1>
+        <ul>
+        <li><a href="https://www.mysqft.in/#services">View Services ➜</a></li>
+        </ul>
+    </header>
+    
+        <div class="intro">    
+            <p>"Your Legacy, in Square Feet."</p>
+            <br>
+            <h2> Welcome to Mysqft!</h2>
+            <br>
+        </div>
+        <div class="form">
+
+            <form method="POST"  id="myForm">
+            <div class="f">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" pattern="[A-Za-z ]{3,35}" required>
+
+             </div>
+            <div class="f">
+              <label for="email">Email</label>
+              <input type="text" id="name" name="email" required>
+
+             </div>
+             <div class="f">
+              <label for="phone">Mobile Number</label>
+              <input type="text" name="mobile" id="mobile" pattern="[6789]{1}[0-9]{9}"  required>
+             </div>
+
+             <div class="f">
+             <textarea name="message" maxlength="400" placeholder="Your Message" id=""></textarea>
+
+             </div>
+
+             <div class="button">
+               <button type="submit">Book now!</button>
+             </div>
+            </form>
+
+
+    
+
+</body>
+<script src="./index.js"></script>
+</html>

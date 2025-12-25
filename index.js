@@ -33,14 +33,15 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 });
 
 // Ping function
-function pingRender() {
-  fetch("https://mysqft-crm.onrender.com/ping")
-    .then(res => console.log("Ping OK:", res.status))
-    .catch(err => console.error("Ping failed:", err));
-}
+// function pingRender() {
+//   fetch("https://mysqft-crm.onrender.com/ping")
+//     .then(res => console.log("Ping OK:", res.status))
+//     .catch(err => console.error("Ping failed:", err));
+// }
 
-// Run immediately once
-pingRender();
+// // Run immediately once
+// pingRender();
 
-// Then run every 5 minutes (300000 ms)
-setInterval(pingRender, 300000);
+// // Then run every 5 minutes (300000 ms)
+// setInterval(pingRender, 300000);
+
